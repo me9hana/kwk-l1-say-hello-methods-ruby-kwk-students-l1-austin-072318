@@ -1,5 +1,5 @@
-def say_hello("Ruby Programmer")
-  puts "What is your name?
+def say_hello(name = "Ruby Programmer")
+  puts "What is your name?"
   name = gets.chomp 
 end
 say_hello
