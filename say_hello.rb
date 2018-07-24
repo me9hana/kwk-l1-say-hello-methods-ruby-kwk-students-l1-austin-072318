@@ -3,4 +3,4 @@ def say_hello("Ruby Programmer")
   name = gets.chomp 
 Hello #{name}!
 end
-say_hello("Gabriela")
+say_hello
